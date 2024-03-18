@@ -95,8 +95,4 @@ Your DynamoDB table is now set up. You can use the boto3 library in your Lambda 
 Your static website is now hosted on S3 and can be accessed from a web browser. 
 
 
-## Issues experienced while building this project:
-* When performing a fetch from the front-end to the API gateway, I was getting a CORS Policy Violation error. This error was fixed by enabling CORS for this particualr resource in API Gateway. Here's a screenshot of the CORS setting after being updated:
-
-![CORS Setting in API Gateway](./images/CORS_setting.PNG "CORS Setting")
 
