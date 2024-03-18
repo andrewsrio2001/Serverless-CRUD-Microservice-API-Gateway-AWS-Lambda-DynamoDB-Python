@@ -3,6 +3,8 @@
 ## Description
 This project aims to demonstrate proficiency in building a miroservice using AWS services that can perform CRUD (create, read, update, and delete) operations on a non-SQL database. The front-end of the application is built using HTML, CSS, and JavaScript hosted on S3, while the back-end utilizes API Gateway, Lambda, and DynamoDB to handle data manipulation and storage. The project showcases the ability to design and implement a scalable and flexible system for managing data in a modern, cloud-based environment.
 
+Our Serverless CRUD Microservice API Gateway leverages the power of AWS Lambda, DynamoDB, and Python to provide a scalable, cost-effective, and efficient solution for building RESTful APIs. This architecture enables developers to focus solely on application logic without concerning themselves with server management or infrastructure scaling.
+
 #### Use this [link](http://crud-operation-static-web.s3-website-us-east-1.amazonaws.com/) to access the live website
 
 
@@ -92,7 +94,24 @@ Your DynamoDB table is now set up. You can use the boto3 library in your Lambda 
 * Click the "Save" button to enable static website hosting for your bucket. Note the URL displayed in the "Static website hosting" panel. You will use this URL to access your website.
 * Finally, navigate to your bucket under "Objects", choose all HTML, CSS, and Javascript file. Click on "Actions" and click on "Make public using ACL" from the dropdown.
 
-Your static website is now hosted on S3 and can be accessed from a web browser. 
+Your static website is now hosted on S3 and can be accessed from a web browser.
+**Features:**
 
+Scalability: With AWS Lambda and DynamoDB, the microservice scales effortlessly in response to changes in workload, ensuring optimal performance and cost-efficiency.
 
+Flexibility: Developers have the freedom to implement custom logic for each CRUD operation, tailoring the microservice to specific application requirements.
 
+Cost-Effectiveness: By adopting a serverless architecture, users only pay for the resources consumed during execution, eliminating the need for provisioning and managing servers.
+
+Security: Built-in authentication and authorization mechanisms provided by API Gateway ensure that only authorized users can access the microservice, while encryption at rest and in transit keeps data secure.
+
+**Use Cases:**
+Web Applications: Ideal for building backend services for web applications requiring scalable and reliable data management.
+
+Mobile Apps: Provides a robust backend for mobile applications, offering seamless data access and synchronization.
+
+IoT Solutions: Supports IoT applications needing real-time data processing and storage with high scalability and availability.
+
+**Conclusion:**
+
+Our Serverless CRUD Microservice API Gateway with AWS Lambda, DynamoDB, and Python offers a streamlined approach to building robust and scalable APIs. By leveraging the power of serverless computing and AWS services, developers can focus on delivering value to their users without the overhead of managing infrastructure.
