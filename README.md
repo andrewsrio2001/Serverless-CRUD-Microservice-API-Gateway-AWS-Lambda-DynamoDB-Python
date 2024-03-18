@@ -1,4 +1,4 @@
-# Serverless CRUD: Using DynamoDB, API Gateway, and Lambda.
+# Serverless CRUD (Create, Read, Update, Delete) Microservice API Gateway using AWS Lambda, DynamoDB, and Python:
 
 ## Description
 Our Serverless CRUD Microservice API Gateway leverages the power of AWS Lambda, DynamoDB, and Python to provide a scalable, cost-effective, and efficient solution for building RESTful APIs. This architecture enables developers to focus solely on application logic without concerning themselves with server management or infrastructure scaling.
