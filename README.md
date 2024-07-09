@@ -120,3 +120,10 @@ IoT Solutions: Supports IoT applications needing real-time data processing and s
 ## Conclusion:
 
 Our Serverless CRUD Microservice API Gateway with AWS Lambda, DynamoDB, and Python offers a streamlined approach to building robust and scalable APIs. By leveraging the power of serverless computing and AWS services, developers can focus on delivering value to their users without the overhead of managing infrastructure.
+
+
+# Hit the Star! ⭐
+***If you are planning to use this repo for learning, please hit the star. Thanks!***
+
+#### Author by [M.Andrews](https://github.com/andrewsrio2001)
+    
